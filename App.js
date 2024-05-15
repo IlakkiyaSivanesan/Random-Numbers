@@ -19,7 +19,7 @@ function App() {
 
     <div className="box">
       <div className='header'>
-        <label htmlFor='term'>Guess the number between 1 to 10: answer : {randomNumbers}</label>
+        <label htmlFor='term'>Guess the number between 1 to 10: </label>
       </div>
       <input id='term' type='text' name='term' onChange={handleChange}/>
       <Result randomNumbers={randomNumbers} term={term}/>
